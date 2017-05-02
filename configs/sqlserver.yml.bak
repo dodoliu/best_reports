@@ -1,0 +1,27 @@
+comm_config: &comm
+  adapter: sqlserver
+  encoding: utf8
+Master:
+  <<: *comm
+  host: 192.168.1.1
+  port: 3433
+  database: aaaa
+  username: aaaa
+  password: aaaa
+  timeout: 60000
+MasterPlus:
+  <<: *comm
+  host: 192.168.1.1
+  port: 3433
+  database: bbbb
+  username: bbbb
+  password: bbbb
+  timeout: 60000
+Analytics:
+  <<: *comm
+  host: 192.168.1.1
+  port: 3433
+  database: cccc
+  username: cccc
+  password: cccc
+  timeout: 60000

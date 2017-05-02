@@ -1,0 +1,8 @@
+mail_config:
+  address: 'smtp.abc.com'
+  port: 25
+  domain: 'abc.com'
+  user_name: 'system_web@abc.com'
+  password: '1234567890'
+  authentication: 'plain'
+  enable_starttls_auto: true
